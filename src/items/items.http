@@ -1,0 +1,22 @@
+POST http://localhost:3001/items
+Content-Type: application/json
+
+{
+    "name": "C#",
+    "image": "qualquer.com",
+    "float": "52.45",
+    "category": "product",
+    "price": 49
+}
+
+### GET ITEMS
+GET http://localhost:3001/items
+
+### GET ITEM BY ID
+GET http://localhost:3001/items/66e1dddfd133cfa6963c4e1c
+
+### UPDATE ITEM
+PATCH  http://localhost:3001/items/
+
+### DELETE ITEM
+DELETE   http://localhost:3000/items/
